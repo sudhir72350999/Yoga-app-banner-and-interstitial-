@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
+                android:src="@drawable/exersice_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <Button
+                android:id="@+id/time"
+                android:text="01:00"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="35dp"
+                android:padding="15dp"
+                android:layout_width="170dp"
+                android:background="@drawable/btnbground"
+                android:layout_height="170dp"/>
+
+            <Button
+                android:id="@+id/start"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:textSize="20sp"
+                android:background="@drawable/startbtnbg"
+                android:gravity="center"
+                android:text="Start"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="How To Do This "
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:padding="7dp"
+                android:background="@drawable/textbg"
+                android:textStyle="bold"
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20sp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="25sp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/pose3"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

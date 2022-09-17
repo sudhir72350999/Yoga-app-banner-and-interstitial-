@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable-v24/ic_baseline_warning_24.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/backgroundcrop.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/btn.xml" value="0.1535" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/btnbackground.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/btnbground.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/splashicon.xml" value="0.1535" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/startbtnbg.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/drawable/textbg.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_after_age18.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_before_age18.xml" value="0.18721872187218722" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_before_age18_description.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_food.xml" value="0.2" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_food_details.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p1.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p10.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p11.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p12.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p13.xml" value="0.12864583333333332" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p14.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p15.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p16.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p17.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p18.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p19.xml" value="0.12864583333333332" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p2.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p20.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p21.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p22.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p23.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p24.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p25.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p26.xml" value="0.176" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p27.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p28.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p29.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p3.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p30.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p4.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p5.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p6.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p7.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p8.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_p9.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose1.xml" value="0.264" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose10.xml" value="0.12864583333333332" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose11.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose12.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose13.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose14.xml" value="0.1" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose15.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose2.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose3.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose4.xml" value="0.12864583333333332" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose5.xml" value="0.12864583333333332" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose6.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose7.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose8.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_pose9.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_privacy_policy.xml" value="0.10740740740740741" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/activtity_p25.xml" value="0.13072916666666667" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/my_native_ad_unified.xml" value="0.2" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/row.xml" value="0.4" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/layout/text_item.xml" value="0.16" />
+        <entry key="..\:/MyYogaApp/app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

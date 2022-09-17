@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221091924851",
+    "project_id": "my-yoga-app-e5d9c",
+    "storage_bucket": "my-yoga-app-e5d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221091924851:android:03e4cfdf31733749499306",
+        "android_client_info": {
+          "package_name": "com.sudhirtheindian4.myyogaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221091924851-4kvtngg0m1emobtet1lkg2abqvhveb8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAsYplnAiEUXTqhu9ivvTJg8_CKFtV4cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221091924851-4kvtngg0m1emobtet1lkg2abqvhveb8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

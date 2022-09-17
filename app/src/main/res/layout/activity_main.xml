@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:textAlignment="textEnd"
+      android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+      android:background="@color/teal_700"
+      app:title="Yoga App"
+      android:gravity="end"
+      app:titleTextColor="@color/white"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:onClick="beforeage18"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Before Age 18"
+                            android:textColor="@color/purple_700"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Day 60"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Every Day 15 Minutes"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/red"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_weight="2.0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:src="@drawable/exersice_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                 <Button
+                     android:id="@+id/getstarted1"
+                     android:layout_margin="10dp"
+                     android:backgroundTint="@color/black"
+                     android:text="get started"
+                     android:textAllCaps="true"
+                     android:textColor="@color/white"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:onClick="afterage18"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="After Age 18"
+                            android:textColor="@color/purple_700"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Day 60"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Every Day 15 Minutes"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/red"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_weight="2.0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:src="@drawable/exersice_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="0.0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/getstarted2"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/black"
+                    android:text="get started"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:onClick="food"
+                android:background="@drawable/backgroundcrop"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:padding="5dp"
+                            android:text="Nutrition or Tips"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Suggestion For Free"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:id="@+id/fl_adplaceholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
