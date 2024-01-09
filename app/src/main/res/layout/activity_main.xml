@@ -53,7 +53,7 @@
 
                         <TextView
                             android:padding="5dp"
-                            android:text="Before Age 18"
+                            android:text="Excercise for Man"
                             android:textColor="@color/purple_700"
                             android:textSize="20sp"
                             android:textStyle="bold"
@@ -62,7 +62,7 @@
 
                         <TextView
                             android:padding="5dp"
-                            android:text="Day 60"
+                            android:text="Day 30"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
                  <Button
                      android:id="@+id/getstarted1"
                      android:layout_margin="10dp"
-                     android:backgroundTint="@color/black"
+                     android:backgroundTint="@color/teal_200"
                      android:text="get started"
                      android:textAllCaps="true"
                      android:textColor="@color/white"
@@ -141,7 +141,7 @@
 
                         <TextView
                             android:padding="5dp"
-                            android:text="After Age 18"
+                            android:text="Excercise for Woman"
                             android:textColor="@color/purple_700"
                             android:textSize="20sp"
                             android:textStyle="bold"
@@ -150,7 +150,7 @@
 
                         <TextView
                             android:padding="5dp"
-                            android:text="Day 60"
+                            android:text="Day 30"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             android:layout_width="wrap_content"
@@ -174,7 +174,7 @@
                         android:layout_height="match_parent">
 
                         <pl.droidsonroids.gif.GifImageView
-                            android:src="@drawable/exersice_1"
+                            android:src="@drawable/p6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"/>
 
@@ -197,7 +197,7 @@
                 <Button
                     android:id="@+id/getstarted2"
                     android:layout_margin="10dp"
-                    android:backgroundTint="@color/black"
+                    android:backgroundTint="@color/teal_200"
                     android:text="get started"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
@@ -229,7 +229,7 @@
 
                         <TextView
                             android:padding="5dp"
-                            android:text="Nutrition or Tips"
+                            android:text="Tips"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold"

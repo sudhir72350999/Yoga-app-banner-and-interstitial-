@@ -20,6 +20,7 @@ import androidx.appcompat.widget.Toolbar;
 public class MainActivity extends AppCompatActivity {
 
     Button getstarted1,getstarted2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,38 +77,32 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.rate:
-                Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                try {
-                    startActivity(intent);
-                } catch (Exception e) {
-                    Toast.makeText(this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                }
-                break;
+//            case R.id.rate:
+//                Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
+//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                try {
+//                    startActivity(intent);
+//                } catch (Exception e) {
+//                    Toast.makeText(this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
+//                }
+//                break;
 
             case R.id.privacy_policy:
-//                Intent intent1 = new Intent(MainActivity.this, PrivacyPolicy.class);
-//                startActivity(intent1);
-                Intent intent1 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://pages.flycricket.io/all-gk-and-gs-fact/privacy.html"));
+                Intent intent1 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://greatsplife.blogspot.com/p/yoga-workout-and-fitness-app.html"));
                 startActivity(intent1);
                 break;
-
-            case R.id.share_me:
-                Intent intent2 = new Intent(Intent.ACTION_SEND);
-                intent2.setType("text/plain");
-//                String value = "Download this Application Now : https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9mathncertsolution"; //here add &hl=en after play store link
-                String value = "Download this Application Now : https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9thncertenglishsolutionoffline"; //here add &hl=en after play store link
-//                String value = "Download this Application Now : https://play.google.com/store/apps/details?id=com.sudhirtheindian1.hindienglish"; //here add &hl=en after play store link
-                intent2.putExtra(Intent.EXTRA_TEXT, value);
-                startActivity(Intent.createChooser(intent2, "share me"));
-
-                break;
+//
+//            case R.id.share_me:
+//                Intent intent2 = new Intent(Intent.ACTION_SEND);
+//                intent2.setType("text/plain");
+//                String value = "Download this Application Now : https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9thncertenglishsolutionoffline"; //here add &hl=en after play store link
+//                intent2.putExtra(Intent.EXTRA_TEXT, value);
+//                startActivity(Intent.createChooser(intent2, "share me"));
+//
+//                break;
 
             case R.id.more_useful_app:
-                Uri uri1 = Uri.parse("https://play.google.com/store/apps/details?id=com.sudhirtheindian.allgkandgsfact");
-//                Uri uri1 = Uri.parse("https://play.google.com/store/apps/details?id=com.sudhirtheindian1.hindienglish");
-//                Uri uri1 = Uri.parse("https://play.google.com/store/apps/details?id=c"+getApplicationContext().getPackageName());
+                Uri uri1 = Uri.parse("https://play.google.com/store/apps/developer?id=sudhir+prajapati");
                 Intent intent3 = new Intent(Intent.ACTION_VIEW, uri1);
 
                 try {
@@ -117,27 +112,23 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
 
-            case R.id.update_app:
-//                Uri uri2 = Uri.parse("https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9mathncertsolution");
-                Uri uri2 = Uri.parse("https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9thncertenglishsolutionoffline");
+//            case R.id.update_app:
+//                Uri uri2 = Uri.parse("https://play.google.com/store/apps/details?id=com.sudhirtheindian4.class9thncertenglishsolutionoffline");
+//
+//                Intent intent4 = new Intent(Intent.ACTION_VIEW, uri2);
+//
+//                try {
+//                    startActivity(intent4);
+//                } catch (Exception e) {
+//                    Toast.makeText(this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
+//                }
+//                break;
 
-                Intent intent4 = new Intent(Intent.ACTION_VIEW, uri2);
+//            case R.id.more_app:
+//                Intent intent5 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/developer?id=sudhir+prajapati"));
+//                startActivity(intent5);
+//                break;
 
-                try {
-                    startActivity(intent4);
-                } catch (Exception e) {
-                    Toast.makeText(this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                }
-                break;
-
-            case R.id.more_app:
-//                Intent intent1 = new Intent(MainActivity.this, PrivacyPolicy.class);
-//                startActivity(intent1);
-                Intent intent5 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/developer?id=sudhir+prajapati"));
-                startActivity(intent5);
-                break;
-
-//            https://play.google.com/store/apps/developer?id=sudhir+prajapati    /// all play store app  link
 
 
         }
@@ -145,44 +136,51 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
-
     @Override
     public void onBackPressed() {
-
-
-        new AlertDialog.Builder(MainActivity.this)
-                .setIcon(R.drawable.ic_baseline_warning_24)
-                .setTitle("Exit")
-                .setMessage("Are you sure you want to exit this app")
-                .setPositiveButton("yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-
-                    }
-                }).setNeutralButton("Rate Us This App", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                        try {
-                            startActivity(intent);
-                        } catch (Exception e) {
-                            Toast.makeText(MainActivity.this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-//                        Toast.makeText(MainActivity.this, "Rate Us This app", Toast.LENGTH_SHORT).show();
-                    }
-
-
-
-                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-
-                    }
-                }).show();
+        super.onBackPressed();
+//        finish();
+        finishAffinity();
     }
+
+    //    @Override
+//    public void onBackPressed() {
+//
+//
+//        new AlertDialog.Builder(MainActivity.this)
+//                .setIcon(R.drawable.ic_baseline_warning_24)
+//                .setTitle("Exit")
+//                .setMessage("Are you sure you want to exit this app")
+//                .setPositiveButton("yes", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        finish();
+//
+//                    }
+//                }).setNeutralButton("Rate Us This App", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
+//                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                        try {
+//                            startActivity(intent);
+//                        } catch (Exception e) {
+//                            Toast.makeText(MainActivity.this, "Unable to open \n " + e.getMessage(), Toast.LENGTH_SHORT).show();
+//                        }
+////                        Toast.makeText(MainActivity.this, "Rate Us This app", Toast.LENGTH_SHORT).show();
+//                    }
+//
+//
+//
+//                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        dialog.dismiss();
+//
+//                    }
+//                }).show();
+//    }
+
+
+
 }

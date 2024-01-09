@@ -16,7 +16,7 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_marginTop="10dp"
-                android:src="@drawable/girl2"
+                android:src="@drawable/exersice_2"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"/>
 

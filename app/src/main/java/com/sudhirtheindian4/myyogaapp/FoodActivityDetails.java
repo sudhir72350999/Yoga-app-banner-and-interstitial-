@@ -11,25 +11,28 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.LoadAdError;
+//import com.google.android.gms.ads.MobileAds;
+//import com.google.android.gms.ads.initialization.InitializationStatus;
+//import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+//import com.google.android.gms.ads.interstitial.InterstitialAd;
+//import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class FoodActivityDetails extends AppCompatActivity {
 
     TextView textView;
-    private AdView mAdView;
-    private InterstitialAd mInterstitialAd;
+//    private AdView mAdView;
+//    private InterstitialAd mInterstitialAd;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_details);
 
+        /*
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {}
@@ -59,7 +62,7 @@ public class FoodActivityDetails extends AppCompatActivity {
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest1 = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest1);
-
+*/
         textView = findViewById(R.id.text);
         String dstory = getIntent().getStringExtra("story");
 //        String dstory = getIntent().getStringExtra("key_position");
@@ -73,12 +76,14 @@ public class FoodActivityDetails extends AppCompatActivity {
         startActivity(intent);
         finish();
 
-
+/*
         if (mInterstitialAd != null) {
             mInterstitialAd.show(FoodActivityDetails.this);
         } else {
             Log.d("TAG", "The interstitial ad wasn't ready yet.");
         }
+
+        */
     }
 
 
