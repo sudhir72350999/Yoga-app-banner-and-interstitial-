@@ -18,21 +18,15 @@ import android.widget.Toast;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
-
     Button getstarted1,getstarted2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         getstarted1 = findViewById(R.id.getstarted1);
         getstarted2 = findViewById(R.id.getstarted2);
-
         getstarted1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
         getstarted2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,26 +41,19 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
     }
-
-
     public void food(View view) {
         startActivity(new Intent(MainActivity.this,FoodActivity.class));
         finish();
     }
-
     public void beforeage18(View view) {
         startActivity(new Intent(MainActivity.this,BeforeAge18.class));
         finish();
     }
-
     public void afterage18(View view) {
         startActivity(new Intent(MainActivity.this,AfterAge18.class));
         finish();
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -128,21 +114,15 @@ public class MainActivity extends AppCompatActivity {
 //                Intent intent5 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/developer?id=sudhir+prajapati"));
 //                startActivity(intent5);
 //                break;
-
-
-
         }
         return true;
-
     }
-
     @Override
     public void onBackPressed() {
         super.onBackPressed();
 //        finish();
         finishAffinity();
     }
-
     //    @Override
 //    public void onBackPressed() {
 //
@@ -180,7 +160,4 @@ public class MainActivity extends AppCompatActivity {
 //                    }
 //                }).show();
 //    }
-
-
-
 }

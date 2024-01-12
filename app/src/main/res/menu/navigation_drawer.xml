@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
 <!--        <item android:id="@+id/update_app"-->
 <!--            android:title="Update App for New Features" />-->
 
@@ -10,14 +9,10 @@
 
     <item android:id="@+id/privacy_policy"
         android:title="Privacy Policy" />
-
-
 <!--    <item android:id="@+id/share_me"-->
 <!--        android:title="Share With Your Friends" />-->
-
     <item android:id="@+id/more_useful_app"
         android:title="More Useful App for You" />
-
 <!--    <item android:id="@+id/more_app"-->
 <!--        android:title="More App for You" />-->
 

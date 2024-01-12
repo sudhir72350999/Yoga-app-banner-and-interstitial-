@@ -1,14 +1,11 @@
 package com.sudhirtheindian4.myyogaapp;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 public class AfterAge18Description extends AppCompatActivity {
     String buttonvalue;
     Button startbtn;
@@ -23,71 +20,52 @@ public class AfterAge18Description extends AppCompatActivity {
         Intent intent = getIntent();
         buttonvalue = intent.getStringExtra("value");
         int intvalue = Integer.valueOf(buttonvalue);
-
-
         switch (intvalue){
-
             case 1:
                 setContentView(R.layout.activity_p1);
                 break;
-
             case 2:
                 setContentView(R.layout.activity_p2);
                 break;
-
             case 3:
                 setContentView(R.layout.activity_p3);
                 break;
-
             case 4:
                 setContentView(R.layout.activity_p4);
                 break;
-
             case 5:
                 setContentView(R.layout.activity_p5);
                 break;
-
             case 6:
                 setContentView(R.layout.activity_p6);
                 break;
-
             case 7:
                 setContentView(R.layout.activity_p7);
                 break;
-
             case 8:
                 setContentView(R.layout.activity_p8);
                 break;
-
             case 9:
                 setContentView(R.layout.activity_p9);
                 break;
-
             case 10:
                 setContentView(R.layout.activity_p10);
                 break;
-
             case 11:
                 setContentView(R.layout.activity_p11);
                 break;
-
             case 12:
                 setContentView(R.layout.activity_p12);
                 break;
-
             case 13:
                 setContentView(R.layout.activity_p13);
                 break;
-
             case 14:
                 setContentView(R.layout.activity_p14);
                 break;
-
             case 15:
                 setContentView(R.layout.activity_p15);
                 break;
-
-
             case 16:
                 setContentView(R.layout.activity_p16);
                 break;
@@ -107,7 +85,6 @@ public class AfterAge18Description extends AppCompatActivity {
             case 21:
                 setContentView(R.layout.activity_p21);
                 break;
-
             case 22:
                 setContentView(R.layout.activity_p22);
                 break;
@@ -135,17 +112,10 @@ public class AfterAge18Description extends AppCompatActivity {
             case 30:
                 setContentView(R.layout.activity_p30);
                 break;
-
-
-
-
-
         }
-
 
         startbtn = findViewById(R.id.start);
         stringtext = findViewById(R.id.time);
-
         startbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -153,30 +123,22 @@ public class AfterAge18Description extends AppCompatActivity {
                     stopTimer();
                 }
                 else {
-
                     startTimer();
-
                 }
             }
         });
-
-
-
     }
 
     private  void stopTimer(){
         countDownTimer.cancel();
         timeRunning =false;
         startbtn.setText("START");
-
     }
-
     private void  startTimer(){
         final  CharSequence value1 = stringtext.getText();
         String num1 = value1.toString();
         String num2 = num1.substring(0,2);
         String num3 = num1.substring(3,5);
-
 //        final  int number = Integer.valueOf(num2)* 60+Integer.valueOf(num3);   /// we can chane 60 to 120  fo two minute
         final  int number = Integer.valueOf(num2)* 60+ Integer.valueOf(num3);   /// we can chane 60 to 120  fo two minute
         timeLeftInMilliseconds = number*1000;
@@ -186,9 +148,7 @@ public class AfterAge18Description extends AppCompatActivity {
             public void onTick(long millisunitsfinished) {
                 timeLeftInMilliseconds=millisunitsfinished;
                 updateTimer();
-
             }
-
             @Override
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
@@ -205,22 +165,15 @@ public class AfterAge18Description extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value",String.valueOf(newvalue));
                     startActivity(intent);
-
-
                 }
-
-
             }
         }.start();
         startbtn.setText("PAUSE");
         timeRunning =true;
-
     }
-
     private  void updateTimer(){
         int minutes = (int) timeLeftInMilliseconds/60000;
         int seconds = (int) timeLeftInMilliseconds%60000 /1000;
-
         String timeLeftText ="";
         if(minutes<10)
             timeLeftText="0";
@@ -231,12 +184,10 @@ public class AfterAge18Description extends AppCompatActivity {
         timeLeftText+= seconds;
         stringtext.setText(timeLeftText);
     }
-
     @Override
     public void onBackPressed() {
 //        super.onBackPressed();
         Intent intent = new Intent(AfterAge18Description.this,AfterAge18.class);
         startActivity(intent);
     }
-
 }

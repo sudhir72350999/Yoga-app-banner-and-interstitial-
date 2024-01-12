@@ -1,31 +1,24 @@
 package com.sudhirtheindian4.myyogaapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-
 //import com.google.android.gms.ads.AdRequest;
 //import com.google.android.gms.ads.AdView;
 //import com.google.android.gms.ads.MobileAds;
 //import com.google.android.gms.ads.initialization.InitializationStatus;
 //import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-
 public class AfterAge18 extends AppCompatActivity {
     int[] newArray;
-
 //    private AdView mAdView, mAdView2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_after_age18);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         newArray = new int[]{
                 R.id.pose1,
                 R.id.pose2,
@@ -96,5 +89,4 @@ public class AfterAge18 extends AppCompatActivity {
         startActivity(intent);
 //        super.onBackPressed();
     }
-
 }

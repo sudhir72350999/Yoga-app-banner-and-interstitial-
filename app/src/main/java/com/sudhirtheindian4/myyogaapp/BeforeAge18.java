@@ -1,9 +1,6 @@
 package com.sudhirtheindian4.myyogaapp;
-
 import static com.sudhirtheindian4.myyogaapp.R.*;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,7 +10,6 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
-
 import androidx.appcompat.widget.Toolbar;
 
 //import com.google.android.gms.ads.AdListener;
@@ -34,8 +30,6 @@ public class BeforeAge18 extends AppCompatActivity {
     int[] newArray;
 
 //    private AdView mAdView, mAdView2;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +37,6 @@ public class BeforeAge18 extends AppCompatActivity {
         Toolbar toolbar = findViewById(id.toolbar);
 
         setSupportActionBar(toolbar);
-
-
         newArray = new int[]{
                 id.pose1,
                 id.pose2,
@@ -97,12 +89,10 @@ public class BeforeAge18 extends AppCompatActivity {
         }
     }
 
-
         @Override
         public void onBackPressed () {
             Intent intent = new Intent(BeforeAge18.this, MainActivity.class);
             startActivity(intent);
 //        super.onBackPressed();
         }
-
     }

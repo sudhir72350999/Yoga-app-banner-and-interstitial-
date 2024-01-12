@@ -1,10 +1,7 @@
 package com.sudhirtheindian4.myyogaapp;
-
 import static android.content.ContentValues.TAG;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -21,17 +18,13 @@ import android.widget.TextView;
 //import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class FoodActivityDetails extends AppCompatActivity {
-
     TextView textView;
 //    private AdView mAdView;
 //    private InterstitialAd mInterstitialAd;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_details);
-
         /*
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -67,24 +60,18 @@ public class FoodActivityDetails extends AppCompatActivity {
         String dstory = getIntent().getStringExtra("story");
 //        String dstory = getIntent().getStringExtra("key_position");
         textView.setText(dstory);
-
     }
-
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(FoodActivityDetails.this,FoodActivity.class);
         startActivity(intent);
         finish();
-
 /*
         if (mInterstitialAd != null) {
             mInterstitialAd.show(FoodActivityDetails.this);
         } else {
             Log.d("TAG", "The interstitial ad wasn't ready yet.");
         }
-
         */
     }
-
-
 }
